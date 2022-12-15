@@ -2,11 +2,12 @@
 using namespace std;
 
 /*
- * Case1:
+ *
+ * Case 1 :
  * class B: public A{};
  *      constructor execution order : first A() then B()
  *
- * Case2:
+ * Case 2 :
  * class A:public B,public C{};
  *      constructor execution order: first B() then C() and then A()
  *
@@ -15,6 +16,7 @@ using namespace std;
  *      constructor execution order: first C() then B() and then A()
  *      More priority for virtual.
  */
+
 class Base1
 {
     int data1;

@@ -11,7 +11,7 @@ class Complex
     {
         cout<<"Real Part = "<<real<<endl;
         cout<<"Imaginary Part = "<<img<<endl;
-    }
+    }                     
     void setData(int a,int b)
     {
         real=a;
@@ -39,7 +39,7 @@ int main()
     objarr->getData();
 
     (objarr+1)->setData(4,5);
-    (objarr+1)->getData(); 
+    (objarr+1)->getData();
 
     return 0;
 }

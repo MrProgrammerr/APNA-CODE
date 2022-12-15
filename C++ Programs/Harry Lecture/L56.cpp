@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// -------------------------- RUNTIME POLYMERPHISM USING VIRTUAL KEYWORD ---------------------------
+
 class Base
 {
 public:
@@ -10,6 +12,7 @@ public:
         cout << "Value Base = " << var1 << endl;
     }
 };
+
 class Derived : public Base
 {
 public:
@@ -29,7 +32,7 @@ int main()
     base_ptr = &obj_derived;
 
     base_ptr->var1 = 34;
-    base_ptr->display(); // Access Derived class Deisplay
+    base_ptr->display(); // Access Derived class Display
 
     return 0;
 }

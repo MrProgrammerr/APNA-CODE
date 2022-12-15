@@ -9,8 +9,8 @@ class A
     public:
     void setData(int a)
     {
-        this->a=a;        //this is a pointer that contains the address 
-    }                     // of object through which class is called.
+        this->a=a;                  //this is a pointer that contains the address 
+    }                               // of object through which class is called.
     A getData()
     {
         cout<<"Value = "<<a<<endl;

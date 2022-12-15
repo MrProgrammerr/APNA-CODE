@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 
-//---------------------CONSTRUCTORS IN DERIVED CLASS------------------------
+//  SOLUTION TO EXCERCISE 1
 
 class simpleCalculator
 {
@@ -35,17 +35,14 @@ public:
     }
     void calculateScientific()
     {
-        cout << "Cos(a) : " << cos(a) << endl;
-        cout << "Sin(a) : " << sin(a) << endl;
+        cout << "cos(a) : " << cos(a) << endl;
+        cout << "sin(a) : " << sin(a) << endl;
         cout << "exp(a) : " << exp(a) << endl;
         cout << "tan(a) : " << tan(a) << endl;
     }
 };
 
-class HybridCalculator : public scientificCalculator,public simpleCalculator
-{
-
-};
+class HybridCalculator : public scientificCalculator,public simpleCalculator{};
 
 int main()
 {

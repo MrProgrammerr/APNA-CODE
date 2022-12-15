@@ -54,7 +54,7 @@ class Sports : virtual public Student
     void print_score()
     {
         cout <<"Score = "<<score<<endl;
-   }
+    }
 };
 class Result : public Test,public Sports
 {
