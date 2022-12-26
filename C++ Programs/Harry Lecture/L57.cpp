@@ -8,7 +8,7 @@ using namespace std;
  * 2. Virtual function can be the friend of another class
  * 3. A fuction in base class might not be overridden.
  * 4. If a virtual function defined in the base class there is no necessity of 
- *    redefuning in the derived class.
+ *    redefining in the derived class.
  */
 
 class CWH

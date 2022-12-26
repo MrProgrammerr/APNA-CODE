@@ -14,11 +14,12 @@
 // l)Sort the elements of the list in ascending order of their values
 // m)Reverse the whole list
 // n)Merge one single linked list with another single linked list to form a larger single linked list.
-//(Hints: Create the first list, create the second list, sort the elements of the first list, sort the elements of the
+// (Hints: Create the first list, create the second list, sort the elements of the first list, sort the elements of the
 // second list, then merge the two lists to form a larger single linked list.)
 
 // C program for the all operations in
 // the Singly Linked List
+
 #include <stdio.h>
 #include <stdlib.h>
 // Linked List Node

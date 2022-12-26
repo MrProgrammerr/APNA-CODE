@@ -12,14 +12,13 @@ public:
         cout << "Value Base = " << var1 << endl;
     }
 };
-
 class Derived : public Base
 {
 public:
     int var2;
     void display()
-    {
-        cout << "Value Derived = " << var2 << endl;
+    {           
+       cout << "Value Derived = " << var2 << endl;
     }
 };
 

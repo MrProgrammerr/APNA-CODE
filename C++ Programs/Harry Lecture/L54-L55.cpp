@@ -54,5 +54,6 @@ int main()
 
     derived_ptr->var2=25;
     derived_ptr->display();
+
     return 0;
 }
