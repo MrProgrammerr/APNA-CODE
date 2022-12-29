@@ -32,9 +32,8 @@ int main()
     // {
     //     cout << *it << "\t";
     // }
-
     //------------------------ UNORDEERD SET ----------------------------
-    // unordered_set<int> st2; // It doesn't maintain ascending order but stores unique elements
+    // unordered_set<int> st2; // It doesn't maintain ascending order but stores unique elements.
 
     //----------------------------- MULTISET ----------------------------
     // multiset<int> ms; // Creates a multiset named as "ms"
@@ -43,15 +42,16 @@ int main()
     // ms.find(ele);     // Returns the first position where ele is present
     // ms.clear();       // Delete all elements.
     // multiset<int> ms;
-    // ms.insert(6);
-    // ms.insert(6);
+    // ms.insert(1);
+    // ms.insert(3);
+    // ms.insert(2);
     // ms.insert(5);
     // ms.insert(4);
-    // ms.insert(5);
-    // ms.insert(5);
+    // ms.insert(4);
+    // ms.insert(4);
     // for (auto it : ms)
     // {
-    //     cout << it << "\t";
+    //     cout << it << "\n";
     // }
 
     //--------------------------- MAP CONTAINER -----------------------------
@@ -134,6 +134,7 @@ int main()
     // q.push(4);
     // q.push(5);
     // cout<<q.front()<<"\n";
+    // cout<<q.back()<<"\n";
     // q.pop();
     // cout<<q.front()<<"\n";
     // while(!q.empty())
@@ -143,5 +144,35 @@ int main()
     // }
 
     //----------------------------- PRIORITY QUEUE ------------------------------
+    // It is like stack and stores all the elements(Not necessaryly unique) in sorted order i.e always max / min
+    // element at the top.
+    // priority_queue<int> mxpq; // Creates a Maximum priority queue named as "mxpq" i.e it stores max at the top
+    // mxpq.push(1);
+    // mxpq.push(3);
+    // mxpq.push(2);
+    // mxpq.push(5);
+    // mxpq.push(4);
+    // mxpq.push(4);
+    // mxpq.push(4);
+    // while (!mxpq.empty())
+    // {
+    //     cout << mxpq.top() << "\n";
+    //     mxpq.pop();
+    // }
+    // cout << "\n";
+    // priority_queue<int, vector<int>, greater<int>> mnpq; // Creates a Minimum priority queue named as "mnpq" i.e 
+    // mnpq.push(4);                                        // it stores min at the top.
+    // mnpq.push(4);
+    // mnpq.push(4);
+    // mnpq.push(5);
+    // mnpq.push(2);
+    // mnpq.push(3);
+    // mnpq.push(1);
+    // while (!mnpq.empty())
+    // {
+    //     cout << mnpq.top() << "\n";
+    //     mnpq.pop();
+    // }
+
     return 0;
 }
