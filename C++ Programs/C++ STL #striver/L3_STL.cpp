@@ -117,6 +117,29 @@ int main()
     // auto it = upper_bound(arr , arr+n , 4);
     // cout << "Index = " << (it-arr) << endl;
 
+    // Next Permutation :-
+    // All permutations of "abc" = abc , acb , bac , bca , cab , cba
+    // string str = "bca";
+    // bool res = next_permutation(str.begin(), str.end()); // makes str "cab" and rturns true as str is changed
+    // cout << res << "  " << str << endl;
+    // str = "cba";
+    // bool res = next_permutation(str.begin(), str.end()); // str becomes "abc" and rturns false 
+    // cout << res << "  " << str << endl;
+    // sort(str.begin(), str.end());
+    // do
+    //     cout << str << "\t";
+    // while (next_permutation(str.begin(), str.end()));
+
+    // Previous Permutation :-
+    // All permutations of "abc" = abc , acb , bac , bca , cab , cba
+    // string str = "bca";
+    // bool res = prev_permutation(str.begin(), str.end()); // makes str "bac" and rturns true as str is changed
+    // cout << res << "  " << str << endl;
+    // str = "abc";
+    // bool res = prev_permutation(str.begin(), str.end()); // str becomes "cba" and rturns false
+    // cout << res << "  " << str << endl;
+
+    // Questions :-
     // Q1 . find the first index where the element key lies. (find() takes O(N) times)
     // int sz, ele;
     // cout << "Enter the Size : ";
@@ -158,22 +181,21 @@ int main()
     //     cout<<"Index not Found i.e Key is absent !"<<endl;
 
     // Q3 . Find the Number of times a given number appears
-    int sz, ele;
-    cout << "Enter the Size : ";
-    cin >> sz;
-    cout << "Enter the Elements : ";
-    vector<int> vec;
-    for (int i = 0; i < sz; i++)
-    {
-        cin >> ele;
-        vec.emplace_back(ele);
-    }
-    sort(vec.begin(), vec.end());
-    cout << "Enter the Key Element : ";
-    cin >> ele;
-    int fr = upper_bound(vec.begin(), vec.end(), ele) - lower_bound(vec.begin(), vec.end(), ele);
-    cout << "Frequency of " << ele << " = " << fr << endl;
+    // int sz, ele;
+    // cout << "Enter the Size : ";
+    // cin >> sz;
+    // cout << "Enter the Elements : ";
+    // vector<int> vec;
+    // for (int i = 0; i < sz; i++)
+    // {
+    //     cin >> ele;
+    //     vec.emplace_back(ele);
+    // }
+    // sort(vec.begin(), vec.end());
+    // cout << "Enter the Key Element : ";
+    // cin >> ele;
+    // int fr = upper_bound(vec.begin(), vec.end(), ele) - lower_bound(vec.begin(), vec.end(), ele);
+    // cout << "Frequency of " << ele << " = " << fr << endl;
 
-    
     return 0;
 }
