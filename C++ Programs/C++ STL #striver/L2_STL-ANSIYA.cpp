@@ -160,7 +160,7 @@ int main()
     //     mxpq.pop();
     // }
     // cout << "\n";
-    // priority_queue<int, vector<int>, greater<int>> mnpq; // Creates a Minimum priority queue named as "mnpq" i.e 
+    // priority_queue<int, vector<int>, greater<int>> mnpq; // Creates a Minimum priority queue named as "mnpq" i.e
     // mnpq.push(4);                                        // it stores min at the top.
     // mnpq.push(4);
     // mnpq.push(4);
@@ -183,7 +183,7 @@ int main()
     // dq.pop_front();
     // dq.pop_back();
     // begin , end , rbegin , rend
-    // size 
+    // size
     // clear
     // empty
 
@@ -195,9 +195,40 @@ int main()
     // ls.pop_front();
     // ls.pop_back();
     // begin , end , rbegin , rend
-    // size 
+    // size
     // clear
     // empty
+
+    // Applications -->
+    
+    // To find maximum frequency element from a given number of elements
+    // int size, max = 0, val;
+    // cin >> size;
+    // unordered_map<int, int> mp; // As it has less time complexity
+    // for (int i = 0; i < size; i++)
+    // {
+    //     cin >> val;
+    //     mp[val]++;
+    //     if(mp[val]>mp[max])
+    //         max=val;
+    // }
+    // cout<<max;
+
+    // TO Take any number of input and print them in sorted order
+    // multiset<int> ms;
+    // int size,ele;
+    // cin>>size;
+    // for (int i = 0; i < size; i++)
+    // {
+    //      cin>>ele;
+    //      ms.emplace(ele);
+    // }
+    // for(auto it : ms)
+    // {
+    //     cout<<it<<"  ";
+    // }
+    // cout<<endl;
+    
 
     return 0;
 }
