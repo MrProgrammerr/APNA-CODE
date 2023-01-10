@@ -1,6 +1,27 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Comparators :-
+// It is nothing but a function that returns true if all elements are in there correct Position and false if not.
+// Used as : sort(begin_index , end_index , comp);
+// bool comp(int ele1, int ele2)
+// {
+//     if (ele1 <= ele2)
+//     {
+//         return true;
+//     }
+//     return false;
+// }
+// bool comp(pair<int, int> pr1, pair<int, int> pr2)
+// {
+//     if (pr1.first < pr2.first)
+//         return true;
+//     if (pr1.first == pr2.first)
+//         if (pr1.second < pr2.second)
+//             return true;
+//     return false;
+// }
+
 int main()
 {
     //------------------------------------ BITSET CONTAINER ------------------------------------
@@ -42,7 +63,8 @@ int main()
 
     // --------------------------------------- ALGORITHMS ----------------------------------------
     // SORTING :-
-    // sort(begin_iterator , end_iterator);
+    // sort(begin_iterator , end_iterator); -> Sorts in Ascending order
+    // sort(begin_iterator , end_iterator , greater<int> ); -> Sorts in Descending order
     // int n;
     // cin >> n;
     // int arr[n];
@@ -53,7 +75,13 @@ int main()
     // sort(arr, arr + n);
     // for (int i = 0; i < n; i++)
     // {
-    //     cout << arr[i] << "  ";
+    //     cout << arr[i] << "\t";
+    // }
+    // cout << endl;
+    // sort(arr, arr + n, greater<int>());
+    // for (int i = 0; i < n; i++)
+    // {
+    //     cout << arr[i] << "\t";
     // }
 
     // vector<int> vec;
@@ -123,7 +151,7 @@ int main()
     // bool res = next_permutation(str.begin(), str.end()); // makes str "cab" and rturns true as str is changed
     // cout << res << "  " << str << endl;
     // str = "cba";
-    // bool res = next_permutation(str.begin(), str.end()); // str becomes "abc" and rturns false 
+    // bool res = next_permutation(str.begin(), str.end()); // str becomes "abc" and rturns false
     // cout << res << "  " << str << endl;
     // sort(str.begin(), str.end());
     // do
