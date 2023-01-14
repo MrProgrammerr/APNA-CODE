@@ -225,5 +225,7 @@ int main()
     // int fr = upper_bound(vec.begin(), vec.end(), ele) - lower_bound(vec.begin(), vec.end(), ele);
     // cout << "Frequency of " << ele << " = " << fr << endl;
 
+    // Next go to Bit Manipulation.
+
     return 0;
 }
