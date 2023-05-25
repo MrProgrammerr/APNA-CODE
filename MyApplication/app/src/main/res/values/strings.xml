@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_msg">Hello From Android!</string>
+    <string name="enter_msg">Enter Your Name ...</string>
+    <string name="submit">SUBMIT</string>
+    <string name="next">NEXT</string>
+</resources>

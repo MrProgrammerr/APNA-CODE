@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">Designed by CHANDAN\n\nWELCOME TO MY BIO</string>
+    <string name="my_photo">photo</string>
+    <string name="bio">My Name is Mr. Chandan Kumar Nayak\n\nI am basically from Markona , Balasore , Odisha\n\nI have done my Matriculation from Raghunarayan High School , Markona
+    and secured 86.67 % in 10th\nI have done my +2 from Adyant Higher Secondary School BBSR and
+    secured 87.67 % in 12th\nCurrently I am Pursuing my B.Tech on CSE in Silicon Institute of Technology\n\n\n
+    I have 4 years of coding experince and I am a 2* Coder in CodeChef \nI have learnt C , C++ , Java , Python , Kotlin , HTML , MySQL etc\n\n
+    I have a great Ambition to become a Data Scientist\n\n\nTHANK YOU!!\n
+    </string>
+    <string name="input_text">Enter Your Name ...</string>
+    <string name="enter">Watch</string>
+</resources>
